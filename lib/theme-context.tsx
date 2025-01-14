@@ -13,31 +13,31 @@ type Theme = {
 const themes: Theme[] = [
   {
     name: "Red",
-    primary: "#FF4545",
-    secondary: "#FF6B6B",
-    accent: "#FF8787",
+    primary: "#fe0000",
+    secondary: "#fe003e",
+    accent: "#e11d1d",
     background: "from-red-600 to-red-900"
   },
   {
     name: "Blue",
     primary: "#0000FF",
-    secondary: "#4040FF",
-    accent: "#6666FF",
+    secondary: "#3535ff",
+    accent: "#2c2cd3",
     background: "from-blue-600 to-blue-900"
   },
   {
     name: "Gold",
     primary: "#FFC300",
-    secondary: "#FFD700",
-    accent: "#FFE44D",
+    secondary: "#ffcf35",
+    accent: "#e7c400",
     background: "from-yellow-600 to-yellow-900"
   },
   {
-    name: "Teal",
-    primary: "#1E5B53",
-    secondary: "#2C7A6E",
-    accent: "#3B9A8F",
-    background: "from-teal-600 to-teal-900"
+    name: "Green",
+    primary: "#00ff00",
+    secondary: "#35ff35",
+    accent: "#00ee00",
+    background: "from-green-600 to-green-900"
   }
 ]
 

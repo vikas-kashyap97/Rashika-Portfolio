@@ -14,9 +14,7 @@ import {
   FaGit,
   FaNode,
 } from "react-icons/fa6";
-import {
-  IoLogoJavascript,
-} from "react-icons/io5";
+import { IoLogoJavascript } from "react-icons/io5";
 import {
   SiTailwindcss,
   SiExpress,
@@ -118,25 +116,67 @@ export function Hero() {
             {/* Tech Stack Section */}
             <div className="flex flex-col lg:flex-row items-center gap-5 mt-10">
               <h1
-                className="text-sm md:text-lg lg:text-3xl border-r-2 pr-2"
-                style={{ color: currentTheme.primary, borderColor: currentTheme.primary }}
+                className="text-sm font-bold md:text-lg lg:text-3xl border-r-2 pr-2"
+                style={{
+                  color: currentTheme.primary,
+                  borderColor: currentTheme.primary,
+                }}
               >
                 Tech Stack
               </h1>
               <div className="flex items-center justify-center lg:justify-start flex-wrap gap-5 m-2">
-                <FaHtml5 className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <FaCss3Alt className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <IoLogoJavascript className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <SiTailwindcss className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <DiMongodb className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <SiExpress className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <FaReact className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <FaNode className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <SiNextdotjs className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <FaGit className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <FaGithub className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <GiArtificialIntelligence className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
-                <SiGithubcopilot className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse" style={{ color: currentTheme.primary }} />
+                <FaHtml5
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <FaCss3Alt
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <IoLogoJavascript
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <SiTailwindcss
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <DiMongodb
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <SiExpress
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <FaReact
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <FaNode
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <SiNextdotjs
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <FaGit
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <FaGithub
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <GiArtificialIntelligence
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
+                <SiGithubcopilot
+                  className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 hover:scale-125 transition-transform animate-pulse"
+                  style={{ color: currentTheme.primary }}
+                />
               </div>
             </div>
           </motion.div>
@@ -164,4 +204,3 @@ export function Hero() {
     </section>
   );
 }
-

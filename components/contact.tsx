@@ -78,6 +78,22 @@ export function Contact() {
                 </div>
                 <div className="space-y-2">
                   <label
+                    htmlFor="number"
+                    className=""
+                    style={{ color: currentTheme.primary }}
+                  >
+                    Name
+                  </label>
+                  <Input
+                    id="number"
+                    type="number"
+                    placeholder="Contact/Whatsapp Number"
+                    className="bg-transparant text-white placeholder-teal-300"
+                    style={{ borderColor: currentTheme.primary }}
+                  />
+                </div>
+                <div className="space-y-2">
+                  <label
                     htmlFor="message"
                     className=""
                     style={{ color: currentTheme.primary }}
@@ -93,10 +109,9 @@ export function Contact() {
                 </div>
                 <Button
                   type="submit"
-                  className="w-full"
+                  className="w-full text-xl font-bold bg-transparent"
                   style={{
-                    backgroundColor: currentTheme.primary,
-                    color: "white",
+                    color: currentTheme.primary,
                   }}
                 >
                   Send Message

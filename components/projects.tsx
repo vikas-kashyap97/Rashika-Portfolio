@@ -89,10 +89,9 @@ export function Projects() {
                     {project.techStack.map((tech) => (
                       <span
                         key={tech}
-                        className="px-2 py-1 rounded-full text-xs"
+                        className="px-2 py-1 rounded-full text-xs bg-transparent"
                         style={{ 
-                          backgroundColor: currentTheme.secondary,
-                          color: 'white'
+                          color: currentTheme.primary
                         }}
                       >
                         {tech}
