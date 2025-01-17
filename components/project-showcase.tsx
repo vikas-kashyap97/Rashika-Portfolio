@@ -5,6 +5,7 @@ import { useState } from "react"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Github } from 'lucide-react'
+import Video from "next-video";
 
 const projects = [
   {
@@ -35,6 +36,17 @@ export function ProjectShowcase() {
 
   return (
     <section id="projects" className="py-20 bg-blue-900/30 backdrop-blur-lg">
+      {/* Video Background */}
+      <div className="absolute inset-0 -z-10 h-full w-full overflow-hidden">
+        <Video
+          src="/videos/background.mp4"
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+        />
+      </div>
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-white mb-12">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

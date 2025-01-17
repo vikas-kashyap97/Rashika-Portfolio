@@ -27,8 +27,10 @@ export function VideoBackground() {
         loop
         playsInline
         onLoadedData={() => setIsVideoLoaded(true)}
+        preload="none"
+        loading="lazy"
       >
-        <source src="/background.mp4" type="video/mp4" />
+        <source src="/videos/background.mp4" type="video/mp4" />
       </video>
     </div>
   )

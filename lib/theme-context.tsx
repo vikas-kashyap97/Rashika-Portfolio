@@ -19,11 +19,11 @@ const themes: Theme[] = [
     background: "from-red-600 to-red-900"
   },
   {
-    name: "Blue",
-    primary: "#0000FF",
-    secondary: "#3535ff",
-    accent: "#2c2cd3",
-    background: "from-blue-600 to-blue-900"
+    name: "Aqua",
+    primary: "#00ffff",
+    secondary: "#1affff",
+    accent: "#4dffff",
+    background: "from-aqua-600 to-aqua-900"
   },
   {
     name: "Gold",
