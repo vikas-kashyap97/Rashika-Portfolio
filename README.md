@@ -5,6 +5,7 @@ Welcome to the repository for **Rashika Kumari's Personal Portfolio**! This port
 **Live Demo:** [https://rashikakumari.netlify.app](https://rashikakumari.netlify.app)  
 **GitHub Repository:** [https://github.com/vikas-kashyap97/Rashika-Portfolio](https://github.com/vikas-kashyap97/Rashika-Portfolio)
 
+
 ## Features
 - 🌟 **Dark and Light Theme:** Seamless theme switching using `next-themes` and a custom `ThemeProvider`.
 - 📜 **Modern Design:** Built with `Tailwind CSS` and `Radix UI` components for a sleek, responsive, and accessible user interface.
