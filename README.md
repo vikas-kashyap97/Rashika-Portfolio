@@ -14,6 +14,7 @@ Welcome to the repository for **Rashika Kumari's Personal Portfolio**! This port
 - 🔍 **Responsive Layout:** Fully mobile-friendly and optimized for various screen sizes.
 - 🛠 **Typed with TypeScript:** Ensures robust and scalable code with type safety.
 
+
 ## Tech Stack
 - **Frontend Framework:** [Next.js](https://nextjs.org/) (v14.2.16)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/) with `tailwindcss-animate` and `clsx` for conditional styling
