@@ -1,5 +1,6 @@
 # Rashika Kumari - Portfolio
 
+
 ## Overview
 Welcome to the repository for **Rashika Kumari's Personal Portfolio**! This portfolio showcases the skills, projects, and achievements of Rashika Kumari, a final-year B.Tech student specializing in Information Technology. The application is designed with a modern tech stack, a responsive UI, and an elegant design to highlight Rashika's expertise.  
 **Live Demo:** [https://rashikakumari.netlify.app](https://rashikakumari.netlify.app)  
